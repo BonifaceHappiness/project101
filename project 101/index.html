@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PROJECT</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <section id="banner">
+        <div class="banner-text">
+            <h2>Hello!!! My name is Happiness</h2>
+            <p>I'm currently based in Lagos, and I work here too</p>
+            <p>I am interested progressing my learning in your academy</p>
+            <div class="banner-btn">
+                <a href="#"><span></span> Education</a>
+                <a href="#"><span></span>Work Experience</a>
+                <a href="#"><span></span>Skills</a>
+            </div>
+        </div>
+    </section>
+
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">FEATURES</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">TESTIMONIALS</a></li>
+                <li><a href="#">MEET US</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menuBtn">
+        <img src="IMAGES/menuicon.png" id="menu">
+    </div>
+
+    <!--Features-->
+
+    <section id="feature">
+        <div class="title-text">
+            <p>FEATURES</p>
+            <h1>A FEW HIGHLIGHTS</h1>
+        </div>
+        <div class="feature-box">
+            <div class="features">
+                <h1>Eductaion</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                    <i class="fa fa-camera-retro"></i>
+                    </div>
+                    <div class="feature-text">
+                        <p>Gradauted from one of the prestigious Polytechnics</p>
+                    </div>
+                </div>
+                <h1>Work Experience</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="fa fa-camera-retro"></i>
+                    </div>
+                    <div class="feature-text">
+                        <p> I have over three years of work experince, and I currently work as a Customer Experience Specialist</p>
+                    </div>
+                </div>
+                <h1>Skills</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="fa fa-camera-retro"></i>
+                    </div>
+                    <div class="feature-text">
+                        <p> My skills include, studying, Building a simple website, etc</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="features-img">
+                <img src="IMAGES/me.png" alt="hand on the lady's hair">
+            </div>
+        </div>
+    </section>
+
+    <!---footer-->
+    <section class="footer">
+        <div class="footer-right">
+            <h1>Get In Touch</h1>
+            <p>#38, xyz in ych, Abc street<i class="fa fa-map-marker" aria-hidden="true"></i></p>
+            <a href="hapibonni@gmail.com">hapibonni@gmail.com<i class="fa fa-envelope-o"></i></a>
+            <p>234038983892<i class="fa fa-mobile" aria-hidden="true"></i></p>
+        </div>
+
+    </section>
+    <script>
+        var menuBtn = document.getElementById("menuBtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+
+    menuBtn.onclick = function(){
+        if(sideNav.style.right =="-250px"){
+            sideNav.style.right = "0";
+        }
+        else{
+            sideNav.style.right = "-250px";
+            menu.scr ="IMAGES/menuicon.png"; 
+        }
+    }
+    </script>
+</body>
+</html>
